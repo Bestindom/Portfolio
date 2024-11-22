@@ -1,5 +1,8 @@
 <template>
   <div class="pt-24 lg:w-1/2 lg:py-24">
+    <About></About>
+
+    
     <div class="container bg-white p-6 rounded-lg shadow-lg">
       <h1 class="text-3xl font-bold text-neutral-600 mb-4">Projects</h1>
       <div class="container">
@@ -76,5 +79,7 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+  import About from './sections/About.vue';
+</script>
 <style></style>

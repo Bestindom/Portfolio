@@ -20,20 +20,21 @@
                     <li>-- Skills</li>
                 </ul>
             </nav>
-            <ul class="ml-1 mt-8 flex items-center">
-                <li class="mr-5 shrink-0">
-                    <a href="" target="_blank" rel="noopener noreferrer">
-                        <iconGitHub></iconGitHub>
-                    </a>
-                </li>
-                <li class="mr-5 shrink-0">
-                    <iconLinkedin></iconLinkedin>
-                </li>
-                <li class="mr-5 shrink-0">
-                    <iconResume></iconResume>
-                </li>
-            </ul>
+
         </div>
+        <ul class="ml-1 mt-8 flex items-center">
+            <li class="mr-5 shrink-0">
+                <a href="" target="_blank" rel="noopener noreferrer">
+                    <iconGitHub></iconGitHub>
+                </a>
+            </li>
+            <li class="mr-5 shrink-0">
+                <iconLinkedin></iconLinkedin>
+            </li>
+            <li class="mr-5 shrink-0">
+                <iconResume></iconResume>
+            </li>
+        </ul>
 
     </div>
 </template>
