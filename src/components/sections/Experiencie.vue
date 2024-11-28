@@ -1,6 +1,6 @@
 <template>
     <div>
-        <ol class="group/list">
+        <ol v-for="job in jobs" class="group/list">
             <li class="mb-12">
                 <div
                     class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
@@ -10,19 +10,17 @@
                     </div>
                     <header
                         class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
-                        2021 - present</header>
+                        {{ job.date }}
+                    </header>
                     <div class="z-10 sm:col-span-6">
-                        <h1>Developer · Pastacuita</h1>
-                        <p>
-                            Meticulous and detail-oriented person, always focused on finding efficient
-                            and scalable solutions. I consider myself curious, resilient, and
-                            cheerful.
-                            <br />
-                            <br />
-                            Moreover, my experience as a competitive underwater hockey player has
-                            taught me the importance of discipline and teamwork, skills that I apply
-                            in my projects.
-                        </p>
+                        <a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                            href="" target="_blank">
+                            <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                            <h1>{{ job.title }}</h1>
+                            <p>
+                                {{ job.description }}
+                            </p>
+                        </a>
                     </div>
                 </div>
             </li>
@@ -30,6 +28,6 @@
     </div>
 </template>
 <script setup>
-    
+import jobs from "@/content/jobs.json"
 </script>
 <style></style>

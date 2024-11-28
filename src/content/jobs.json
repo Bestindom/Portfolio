@@ -1,0 +1,14 @@
+[
+  {
+    "title": "TFlowLab",
+    "date": "FEB-JUL 2024",
+    "url": "https://tflowlab.com/",
+    "description": "I built and designed the Pastacuita website using Elementor, delivering an attractive, functional, and responsive design aligned with the brand's identity. I set up a version control system with Git and implemented a continuous integration and deployment (CI/CD) workflow using WPGulp to optimize the development process."
+  },
+  {
+    "title": "Pastacuita",
+    "date": "SEP-NOV 2023",
+    "url": "https://pastacuita.com/",
+    "description": "I built and designed the Pastacuita website using Elementor, delivering an attractive, functional, and responsive design aligned with the brand's identity. I set up a version control system with Git and implemented a continuous integration and deployment (CI/CD) workflow using WPGulp to optimize the development process."
+  }
+]
