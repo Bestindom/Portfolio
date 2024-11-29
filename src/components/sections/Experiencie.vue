@@ -14,13 +14,14 @@
                     </header>
                     <div class="z-10 sm:col-span-6">
                         <a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                            href="" target="_blank">
+                            :href="job.url" target="_blank">
                             <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                            <h1>{{ job.title }}</h1>
-                            <p>
-                                {{ job.description }}
-                            </p>
+                            <span>{{ job.title }} {{ job.company }}</span>
                         </a>
+
+                        <p>
+                            {{ job.description }}
+                        </p>
                     </div>
                 </div>
             </li>
