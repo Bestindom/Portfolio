@@ -1,22 +1,22 @@
 [
   {
-    "title": "Junior FrontEnd asistant ·",
+    "title": "Junior FrontEnd asistant",
     "company": "Shula App",
     "date": "OCT - PRESENT",
     "url": "https://www.shula.app/",
-    "description":"",
+    "description":"I built and designed the Pastacuita website using Elementor...",
     "tech": ["VUE.js", "PicoCSS"]
   },
   {
-    "title": "Junior FullStack developer ·",
+    "title": "Junior FullStack developer",
     "company": "TFlowLab",
     "date": "FEB - JUL 2024",
     "url": "https://tflowlab.com/",
-    "description": "",
+    "description": "I built and designed the Pastacuita website using Elementor...",
     "tech": ["PHP", "Laravel", "VUE.js", "MySQL", "API Restfull", "JavaScript", "Bootstrap"]
   },
   {
-    "title": "Freelance ·",
+    "title": "Freelance",
     "company": "Pastacuita",
     "date": "SEP - NOV 2023",
     "url": "https://pastacuita.com/",

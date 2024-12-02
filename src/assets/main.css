@@ -6,4 +6,9 @@ body {
     margin: 0;
     --tw-bg-opacity: 1;
     background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+    /* font-style: rgb(148 163 184 / var(--tw-text-opacity)); */
+    color: #94A3B8;
+}
+html {
+    scroll-behavior: smooth;
 }
