@@ -6,14 +6,7 @@
             </h1>
             <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Fullstack Developer</h2>
             <p class="mt-4 max-w-xs leading-normal">
-                Meticulous and detail-oriented person, always focused on finding efficient
-                and scalable solutions. I consider myself curious, resilient, and
-                cheerful.
-                <br />
-                <br />
-                Moreover, my experience as a competitive underwater hockey player has
-                taught me the importance of discipline and teamwork, skills that I apply
-                in my projects.
+                International underwater hockey player who thrives on challenges.
             </p>
             <nav>
                 <ul class="mt-16 w-max">
@@ -76,15 +69,19 @@
         </div>
         <ul class="ml-1 mt-8 flex items-center">
             <li class="mr-5 shrink-0">
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Bestindom" target="_blank" rel="noopener noreferrer">
                     <iconGitHub></iconGitHub>
                 </a>
             </li>
             <li class="mr-5 shrink-0">
-                <iconLinkedin></iconLinkedin>
+                <a href="https://www.linkedin.com/in/eviamalbuja/" target="_blank" rel="noopener noreferrer">
+                    <iconLinkedin></iconLinkedin>
+                </a>
             </li>
             <li class="mr-5 shrink-0">
-                <iconResume></iconResume>
+                <a href="/static/CV_2024_ENG.pdf" target="_blank" rel="noopener noreferrer">
+                    <iconResume></iconResume>
+                </a>
             </li>
         </ul>
 
