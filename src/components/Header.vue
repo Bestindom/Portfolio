@@ -106,8 +106,6 @@ const handleScroll = () => {
         if (rect.top < window.innerHeight / 2 && rect.bottom > window.innerHeight / 2) {
             currentSection = section.id; // update active section
         }
-        console.log("activeSection:     " + activeSection.value)
-        console.log("top:    " + rect.top)
     });
 
     activeSection.value = currentSection;
