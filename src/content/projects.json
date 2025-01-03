@@ -2,13 +2,13 @@
     {
         "name": "Pokédex",
         "description": "Interactive Pokédex using data from the PokéAPI to display detailed information about each Pokémon.",
-        "img": "/src/images/image_pokedex.PNG",
+        "img": "./src/images/image_pokedex.PNG",
         "url": "https://bestindom.github.io/PokedexVue/"
     },
     {
         "name": "EasyHelp",
         "description": "EasyHelp is a 'Too good to go' style project with the objective of managing database data with Laravel",
-        "img": "/src/images/image_easyhelp.PNG",
+        "img": "./src/images/image_easyhelp.PNG",
         "url": "https://github.com/Bestindom/EASYHELP"
     }
 ]
