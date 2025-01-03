@@ -1,7 +1,7 @@
 [
     {
         "name": "Pokédex",
-        "description": "pokedex con web components",
+        "description": "Interactive Pokédex using data from the PokéAPI to display detailed information about each Pokémon.",
         "img": "/src/images/image_pokedex.PNG",
         "url": "https://bestindom.github.io/PokedexVue/"
     },
