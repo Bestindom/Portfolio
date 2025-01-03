@@ -1,80 +1,36 @@
 <template>
-  <div class="pt-24 lg:w-1/2 lg:py-24">
-    <div class="container bg-white p-6 rounded-lg shadow-lg">
-      <h1 class="text-3xl font-bold text-neutral-600 mb-4">Projects</h1>
-      <div class="container">
-        <h2>Project 1</h2>
-        <span class="text-base text-neutral-700">
-          Meticulous and detail-oriented person, always focused on finding efficient
-          and scalable solutions. I consider myself curious, resilient, and
-          cheerful.
-          <br />
-          <br />
-          Moreover, my experience as a competitive underwater hockey player has
-          taught me the importance of discipline and teamwork, skills that I apply
-          in my projects.
-        </span>
-      </div>
-      
-      <div class="container">
-        <h2>Project 2</h2>
-        <span class="text-base text-neutral-700">
-          Meticulous and detail-oriented person, always focused on finding efficient
-          and scalable solutions. I consider myself curious, resilient, and
-          cheerful.
-          <br />
-          <br />
-          Moreover, my experience as a competitive underwater hockey player has
-          taught me the importance of discipline and teamwork, skills that I apply
-          in my projects.
-        </span>
-      </div>
-
-      <div class="container">
-        <h2>Project 3</h2>
-        <span class="text-base text-neutral-700">
-          Meticulous and detail-oriented person, always focused on finding efficient
-          and scalable solutions. I consider myself curious, resilient, and
-          cheerful.
-          <br />
-          <br />
-          Moreover, my experience as a competitive underwater hockey player has
-          taught me the importance of discipline and teamwork, skills that I apply
-          in my projects.
-        </span>
-      </div>
-
-      <div class="container">
-        <h2>Project 4</h2>
-        <span class="text-base text-neutral-700">
-          Meticulous and detail-oriented person, always focused on finding efficient
-          and scalable solutions. I consider myself curious, resilient, and
-          cheerful.
-          <br />
-          <br />
-          Moreover, my experience as a competitive underwater hockey player has
-          taught me the importance of discipline and teamwork, skills that I apply
-          in my projects.
-        </span>
-      </div>
-
-      <div class="container">
-        <h2>Project 5</h2>
-        <span class="text-base text-neutral-700">
-          Meticulous and detail-oriented person, always focused on finding efficient
-          and scalable solutions. I consider myself curious, resilient, and
-          cheerful.
-          <br />
-          <br />
-          Moreover, my experience as a competitive underwater hockey player has
-          taught me the importance of discipline and teamwork, skills that I apply
-          in my projects.
-        </span>
-      </div>
-
-    </div>
-  </div>
+  <main class="pt-24 lg:w-1/2 lg:py-24">
+    <section id="about" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+      <About />
+    </section>
+    <section id="experiencie" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+      <Experiencie />
+    </section>
+    <section id="projects" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+      <Projects />
+    </section>
+    <footer class="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
+      <p>
+        Built with
+        <a href="https://vuejs.org/" target="_blank" rel="noreferrer noopener"
+          class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300">VUE.js</a>
+        and
+        <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer noopener"
+          class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300">Tailwind CSS</a>,
+        deployed with
+        <a href="https://vercel.com/" target="_blank" rel="noreferrer noopener"
+          class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300">Vercel</a>. All text is set
+        in the
+        <a href="https://rsms.me/inter/" target="_blank" rel="noreferrer noopener"
+          class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300">Inter</a> typeface.
+      </p>
+    </footer>
+  </main>
 </template>
 
-<script setup></script>
+<script setup>
+import About from './sections/About.vue';
+import Projects from './sections/Projects.vue';
+import Experiencie from './sections/Experiencie.vue';
+</script>
 <style></style>
