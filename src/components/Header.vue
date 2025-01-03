@@ -79,7 +79,7 @@
                 </a>
             </li>
             <li class="mr-5 shrink-0">
-                <a href="/static/CV_2024_ENG.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/static/CV_2025_ENG.pdf" target="_blank" rel="noopener noreferrer">
                     <iconResume></iconResume>
                 </a>
             </li>
