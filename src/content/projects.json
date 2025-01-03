@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Pokédex",
+        "description": "pokedex con web components",
+        "img": "/src/images/image_pokedex.PNG",
+        "url": "https://bestindom.github.io/PokedexVue/"
+    },
+    {
+        "name": "EasyHelp",
+        "description": "EasyHelp is a 'Too good to go' style project with the objective of managing database data with Laravel",
+        "img": "/src/images/image_easyhelp.PNG",
+        "url": "https://github.com/Bestindom/EASYHELP"
+    }
+]

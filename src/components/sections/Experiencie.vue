@@ -1,7 +1,7 @@
 <template>
     <div>
         <ol class="group/list">
-            <li v-for="job in jobs" :key="job.title" class="mb-12">
+            <li v-for="job in jobs" :key="job.name" class="mb-12">
                 <div
                     class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                     <div

@@ -6,9 +6,9 @@
             </h1>
             <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Fullstack Developer</h2>
             <p class="mt-4 max-w-xs leading-normal">
-                International underwater hockey player who thrives on challenges.
+                Innate thinker focused on efficiency.
             </p>
-            <nav>
+            <nav class="nav hidden lg:block">
                 <ul class="mt-16 w-max">
                     <li>
                         <a class="group flex items-center py-3" href="#about">
@@ -103,7 +103,7 @@ const handleScroll = () => {
 
     sections.forEach((section) => {
         const rect = section.getBoundingClientRect();
-        if (rect.top < window.innerHeight / 3 && rect.bottom > window.innerHeight / 3) {
+        if (rect.top < window.innerHeight / 2 && rect.bottom > window.innerHeight / 2) {
             currentSection = section.id; // update active section
         }
         console.log("activeSection:     " + activeSection.value)

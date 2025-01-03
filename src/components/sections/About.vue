@@ -1,5 +1,5 @@
 <template>
-    <div class="pe-2">
+    <div>
         <p class="mb-4">
             I'm a developer passionate about transforming ideas into functional and attractive web experiences, paying
             attention to every detail in the process. My greatest professional satisfaction comes from understanding a
@@ -17,7 +17,7 @@
         </p>
         <p class="mb-4">
             I value continuous learning and collaboration, which have enabled me to adapt to diverse technologies and
-            tackle challenging projects effectively. My approach focuses on working efficiently and contributing to the
+            tackle challenging projects. My approach focuses on working efficiently and contributing to the
             team through good communication.
         </p>
         <p class="mb-4">

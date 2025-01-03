@@ -20,7 +20,9 @@
         deployed with
         <a href="https://vercel.com/" target="_blank" rel="noreferrer noopener"
           class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300">Vercel</a>. All text is set
-        in the Inter typeface.
+        in the
+        <a href="https://rsms.me/inter/" target="_blank" rel="noreferrer noopener"
+          class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300">Inter</a> typeface.
       </p>
     </footer>
   </main>
