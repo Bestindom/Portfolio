@@ -5,7 +5,7 @@
     "date": "OCT - PRESENT",
     "url": "https://www.shula.app/",
     "description": "Enhanced the Shula App frontend by contributing innovative ideas and developing new functionalities, with a focus on improving user experience and ensuring smooth feature integration.",
-    "tech": ["VUE.js", "Docker", "PostgreSQL", "PicoCSS"]
+    "tech": ["VUE.js", "Docker", "PostgreSQL", "TailwindCSS"]
   },
   {
     "title": "FullStack developer",
